@@ -1,0 +1,38 @@
+// Button Component
+
+
+
+
+//  Dependencies:
+//    Settings.Default
+
+
+
+
+// Options
+
+$iota-button            : true;
+$iota-button-color      : #FFFFFF !default;
+$iota-button-margin     : 0 !default;
+$iota-button-padding    : 10px 15px !default;
+$iota-button-border     : none !default;
+$iota-button-background : #000000 !default;
+
+
+
+
+.#{$iota-component-namespace}button {
+  display: inline-block;
+  margin:  $iota-button-margin;
+  padding: $iota-button-padding;
+  font: inherit;
+  color: $iota-button-color;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: $iota-button-border;
+  text-decoration: none;
+  outline: 0;
+  background: $iota-button-background;
+}
