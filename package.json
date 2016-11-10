@@ -1,6 +1,6 @@
 {
-  "name": "iotacss-button",
-  "version": "0.1.0",
+  "name": "iotacss-components-button",
+  "version": "1.0.0",
   "description": "Button component for iotaCSS",
   "main": "_components.button.scss",
   "repository": {
@@ -10,11 +10,9 @@
   "keywords": [
     "iotacss",
     "css",
+    "sass",
     "bem",
     "oocss"
   ],
-  "dependencies": {
-    "iotacss-default": "0.1.0"
-  },
   "author": "Dimitris Psaropoulos <info@harby.me>"
 }

@@ -3,36 +3,41 @@
 
 
 
-//  Dependencies:
-//    Settings.Default
-
-
-
-
 // Options
 
-$iota-button            : true;
-$iota-button-color      : #FFFFFF !default;
-$iota-button-margin     : 0 !default;
-$iota-button-padding    : 10px 15px !default;
-$iota-button-border     : none !default;
-$iota-button-background : #000000 !default;
+$iota-components-button            : true;
+
+$iota-components-button-namespace  : 'button' !default;
+
+$iota-components-button-color      : rgb(255, 255, 255) !default;
+$iota-components-button-margin     : 0 !default;
+$iota-components-button-padding    : $iota-global-gutter-default !default;
+$iota-components-button-border     : none !default;
+$iota-components-button-background : rgb(57, 178, 255) !default;
 
 
 
 
-.#{$iota-component-namespace}button {
+// Helper Local Variables
+
+$iota-components-button-var-button: $iota-global-components-namespace + $iota-components-button-namespace;
+
+
+
+
+// Button Component
+
+.#{$iota-components-button-var-button} {
   display: inline-block;
-  margin:  $iota-button-margin;
-  padding: $iota-button-padding;
+  margin:  $iota-components-button-margin;
+  padding: $iota-components-button-padding;
   font: inherit;
-  color: $iota-button-color;
+  color: $iota-components-button-color;
   white-space: nowrap;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  border: $iota-button-border;
+  border: $iota-components-button-border;
   text-decoration: none;
-  outline: 0;
-  background: $iota-button-background;
+  background: $iota-components-button-background;
 }
