@@ -1,6 +1,6 @@
 {
   "name": "iotacss-components-button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Button component for iotaCSS",
   "main": "_components.button.scss",
   "repository": {
