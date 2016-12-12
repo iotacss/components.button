@@ -29,8 +29,8 @@ $iota-components-button-var-button: $iota-global-components-namespace + $iota-co
 
 .#{$iota-components-button-var-button} {
   display: inline-block;
-  margin:  $iota-components-button-margin;
-  padding: $iota-components-button-padding;
+  @include _iota-generate-unit('margin', null, $iota-components-button-margin);
+  @include _iota-generate-unit('padding', null, $iota-components-button-padding);
   font: inherit;
   color: $iota-components-button-color;
   white-space: nowrap;
